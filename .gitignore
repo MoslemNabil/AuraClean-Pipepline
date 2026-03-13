@@ -1,0 +1,31 @@
+# Python Standards
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data Science Noise (Ignore contents, keep folders)
+.ipynb_checkpoints
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDEs (IntelliJ Ultimate / PyCharm)
+.idea/
+
+# AI Transparency
+.gemini/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Security
+.env
